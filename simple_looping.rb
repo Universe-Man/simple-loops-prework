@@ -6,7 +6,9 @@ def loop_iterator(number_of_times)
   loop do
     counter += 1
     puts phrase
-    break if counter > number_of_times
+    if counter > number_of_times
+      break
+    end
   end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
